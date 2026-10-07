@@ -2,7 +2,7 @@ import {useQuery} from "@tanstack/react-query";
 import { useEffect } from "react";
 import { setProducts } from "../redux/slices/productSlice";
 import { useDispatch,useSelector } from "react-redux";
-import ProductCard from "../components/PoductCard";
+import ProductCard from "../components/ProductCard";
 
 function Products(){
     const dispatch=useDispatch();
