@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "name": "shifa ismail vk",
+      "email": "vkshifaismail.com@gmail.com",
+      "password": "9946621423",
+      "id": "tLKbJFm_LZc"
+    }
+  ],
+  "products":[{
+      "id": "memory-basic",
+      "name": "Classic Memory Book",
+      "price": 999,
+      "category": "Classic",
+      "description": "A personalized memory book created from your photos and stories.",
+      "stock": 10,
+      "image": "/images/classic-memory-book.jpg"
+    },
+    {
+      "id": "memory-couple",
+      "name": "Our Story",
+      "price": 1499,
+      "category": "Couple",
+      "description": "A personalized illustrated book capturing your journey together.",
+      "stock": 8,
+      "image": "/images/our-story.jpg"
+    },
+    {
+      "id": "memory-family",
+      "name": "Family Memories",
+      "price": 1799,
+      "category": "Family",
+      "description": "Turn your family's favorite memories into a personalized storybook.",
+      "stock": 6,
+      "image": "/images/family-memories.jpg"
+    },
+    {
+      "id": "memory-premium",
+      "name": "Premium Memories",
+      "price": 2499,
+      "category": "Premium",
+      "description": "A premium cinematic-style memory book with customized characters.",
+      "stock": 4,
+      "image": "/images/premium-memories.jpg"
+    },
+    {
+      "id": "memory-kids",
+      "name": "Little Memories",
+      "price": 1299,
+      "category": "Kids",
+      "description": "A playful personalized storybook created from childhood memories.",
+      "stock": 12,
+      "image": "/images/little-memories.jpg"
+    }],
+    "orders":[]
+  
+}

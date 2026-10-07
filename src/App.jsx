@@ -1,12 +1,12 @@
-import './App.css'
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
   return (
-    <div className="app">
-      <h1>SIVK MEMORA</h1>
-      <p>Turn your memories into a book.</p>
+    <div>
+      <AppRoutes />;
     </div>
   )
+  
 }
 
 export default App
