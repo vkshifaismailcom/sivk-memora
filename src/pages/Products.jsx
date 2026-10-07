@@ -6,7 +6,7 @@ import ProductCard from "../components/ProductCard";
 
 function Products(){
     const dispatch=useDispatch();
-    const products=useSelector((state)=>state.product);
+    const products=useSelector((state)=>state.products);
     const{data=[]}=useQuery({
         queryKey:["products"],
         queryFn:()=>fetch("http://localhost:3000/products")
